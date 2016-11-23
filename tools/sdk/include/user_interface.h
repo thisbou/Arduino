@@ -51,7 +51,7 @@ void system_restore(void);
 void system_restart(void);
 
 bool system_deep_sleep_set_option(uint8 option);
-void system_deep_sleep(uin64 time_in_us);
+void system_deep_sleep(uint64 time_in_us);
 
 uint8 system_upgrade_userbin_check(void);
 void system_upgrade_reboot(void);
